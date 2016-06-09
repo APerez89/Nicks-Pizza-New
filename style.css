@@ -72,7 +72,6 @@ body {
     margin: 0 0 30px;
     color: #2a2a2a;
 }
-#container .nick-img {}
 #container .nick-img img {
     width: 400px;
 }
@@ -126,7 +125,7 @@ body {
     border-radius: 100px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
-#container .modal {
+.modal {
     width: 100%;
     height: 100%;
     display: none;
@@ -135,9 +134,7 @@ body {
     left: 0px;
     background: rgba(0,0,0,0.75);
 }
-
-/* Inner */
-#container .modal-inner {
+.modal-inner {
     max-width: 900px;
     height: 500px;
     width: 90%;
@@ -151,7 +148,7 @@ body {
     border-radius: 3px;
     background: #fff;
 }
-#container .modal .modal-inner h2 {
+.modal .modal-inner h2 {
     font-family: 'Archivo Black', sans-serif;
     font-weight: bolder;
     font-variant: small-caps;
@@ -159,13 +156,13 @@ body {
     color: #2a2a2a;
     margin: 0;
 }
-#container .modal-inner p {
+.modal-inner p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 17px;
     color: #2a2a2a;
 }
-#container .modal-close {
+.modal-close {
     width: 30px;
     height: 25px;
     padding-top: 4px;
@@ -192,7 +189,7 @@ body {
     font-weight: 400;
     color: white;
 }
-#container .modal-close:hover {
+.modal-close:hover {
     -webkit-transform: translate(50%, -50%) rotate(180deg);
     transform: translate(50%, -50%) rotate(180deg);
     background: rgba(0,0,0,1);
@@ -222,6 +219,7 @@ body {
     display: inline-block;
     position: relative;
     margin: 30px 40px;
+    float: left;
 }
 #container .event-all img {
     width: 235px;
@@ -279,6 +277,7 @@ body {
 }
 #container .contact-form textarea {
     height: 210px;
+    resize: none;
 }
 #container .contact-form input:focus, textarea:focus {
     border: 1px solid #97d6eb;
@@ -298,7 +297,6 @@ body {
 }
 #container .footer-wrap {
     width: 100%;
-    height: 200px;
     background-color: #141414;
 }
 #container .footer {
@@ -308,10 +306,10 @@ body {
 #container .footer-info {
     display: inline-block;
     width: 150px;
-    height: 80px;
     position: relative;
     margin: 20px 60px;
     color: white;
+    float: left;
 }
 #container .footer-info h2 {
     font-family: 'Archivo Black', sans-serif;
@@ -323,6 +321,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 17px;
+}
+.footer-rights {
+    width: 900px;
+    margin: 30px auto 0;
+    padding-left: 120px;
 }
 #container .footer-rights p {
     color: white;
