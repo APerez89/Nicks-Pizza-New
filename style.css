@@ -292,7 +292,7 @@ body {
     transition: background-color 400ms ease-in-out, color 200ms ease-in-out;
 }
 #container .contact-form #submit:hover {
-    background-color: #999999;
+    background-color: #16b862;
     color: white;
 }
 #container .footer-wrap {
@@ -310,6 +310,7 @@ body {
     margin: 20px 60px;
     color: white;
     float: left;
+    text-align: center;
 }
 #container .footer-info h2 {
     font-family: 'Archivo Black', sans-serif;
