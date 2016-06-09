@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Nicks Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Archivo+Black' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="nav-wrap">
+            <div class="nav">
+                <ul>
+                    <li><a href="#page-1">Welcome</a></li>
+                    <li><a href="#page-2">About</a></li>
+                    <li><a href="#page-3">Menu</a></li>
+                    <li><a href="#page-4">Events</a></li>
+                    <li><a href="#page-5">Contact Us</a></li>
+                </ul> <!-- UL -->
+            </div> <!-- Navigation -->
+        </div> <!-- Navigation Wrapper -->
+
+        <div class="welcome-wrap" id="page-1">
+            <div class="welcome">
+                <img src="images/logo.png"/>
+            </div> <!-- Welcome -->
+        </div> <!-- Welcome Wrapper -->
+
+        <div class="about-wrap" id="page-2">
+            <div class="about">
+                <h2>The Art of Pizza since 1969</h2> <!-- H2 -->
+                <div class="nick-img">
+                    <img src="images/nick.jpg">
+                </div> <!-- Nick Image -->
+                <div class="info">
+                    <p>At Nick's Pizza, we honor the tradition of Nick Criscuolo's fine Italian cuisine. After 40 years, our Italian restaurant still follows the same recipes Nick introduced toStamford, CT in 1969. Stop in today to try our old fashioned, thin crust pizza and choose from over 40 pizza toppings. All of our food is made from the freshest ingredients. Our menu includes classic Italian chicken entrees, pasta, burgers, wraps, chicken wings and over 20 specialty pizzas. New to the menu is a buffalo mozzarella pizza that we call the Napolitano. We even cater! Our pizza delivery is fast and on time. We're open 11 AM to midnight. Call 203-324-4949!</p>
+                </div> <!-- Info -->
+            </div> <!-- About -->
+        </div> <!-- About Wrapper -->
+
+        <div class="menu-wrap" id="page-3">
+            <div class="menu">
+                <div class="menu-title">
+                    <h2>Our Menu</h2> <!-- H2 -->
+                </div> <!-- Menu Title -->
+                <div class="menu-item-wrap">
+                    <div class="menu-items">
+                        <a modal-open-1="modal-1" href="#"><img src="images/pizzabtn.png"></a>
+
+                        <div class="modal" modal-open="modal-1">
+                            <div class="modal-inner">
+                                <h2>Pizza</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet porro minus neque similique optio quo deserunt eligendi atque corporis cum quasi nihil consequuntur, earum suscipit voluptates quidem obcaecati odio? Amet!</p>
+                                <a class="modal-close" modal-close="modal-1" href="#">X</a>
+                            </div>
+                        </div>
+                        <h2>Pizza</h2>
+                    </div> <!-- Menu Items -->
+                    <div class="menu-items">
+                        <a href=""><img src="images/pastabtn.png"></a>
+                        <h2>Pasta</h2>
+                    </div> <!-- Menu Items -->
+                    <div class="menu-items">
+                        <a href=""><img src="images/burgerbtn.png"></a>
+                        <h2>Burgers</h2>
+                    </div> <!-- Menu Items -->
+                    <div class="menu-items">
+                        <a href=""><img src="images/appetbtn.png"></a>
+                        <h2>Appetizers</h2>
+                    </div> <!-- Menu Items -->
+                    <div class="menu-items">
+                        <a href=""><img src="images/saladbtn.png"></a>
+                        <h2>Salads</h2>
+                    </div> <!-- Menu Items -->
+                </div>
+            </div> <!-- Menu -->
+        </div> <!-- Menu Wrapper -->
+
+        <div class="event-wrap" id="page-4">
+            <div class="event">
+                <h2>Upcoming Events</h2> <!-- H2 -->
+                <div class="event-all">
+                    <a href=""><img src="images/cat.jpg" class="event-img"></a>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="event-all">
+                    <a href=""><img src="images/sunset.jpg" class="event-img"></a>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur ut esse.</p>
+                    </div> <!-- Info -->
+                </div>
+                <div class="event-all">
+                    <a href=""><img src="images/food.jpg" class="event-img"></a>
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div> <!-- Event -->
+        </div> <!-- Event Wrapper -->
+
+        <div class="contact-wrap" id="page-5">
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <div class="contact-form">
+                    <form>
+                        <input type="name" placeholder="Your Name">
+
+                        <input name="email" type="email" placeholder="Your Email">
+
+                        <textarea name="message" rows="8" cols="40" placeholder="Tell us what you think!"></textarea>
+
+                        <input id="submit" name="submit" type="submit" value="submit">
+                    </form>
+                </div>
+            </div> <!-- Contact -->
+        </div> <!-- Contact Wrapper -->
+
+        <div class="footer-wrap">
+            <div class="footer">
+                <div class="footer-info" id="left">
+                    <h2>Where</h2>
+                    <p>522 Glenbrook Rd</p>
+                    <p>Stamford, Ct</p>
+                </div> <!-- Left -->
+                <div class="footer-info" id="middle">
+                    <h2>When</h2>
+                    <p>Monday - Sunday</p>
+                    <p>11:00am - 12:00am</p>
+                </div>
+                <div class="footer-info" id="right">
+                    <h2>Our Phone</h2>
+                    <p>203.324.4949</p>
+                </div> <!-- Right -->
+                <div class="footer-rights">
+                    <p>Copyright (C) 2015 Hyperreal All Rights Reserved</p>
+                </div> <!-- Bottom -->
+            </div> <!-- Footer -->
+        </div> <!-- Footer Wrapper -->
+    </div> <!-- Container -->
+</body>
