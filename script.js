@@ -28,18 +28,28 @@ $(document).ready(function() {
     });
 
     //----- Fade To
-    $('.event-img').mouseenter(function(){
-        console.log('mouseenter');
+    // $('.event-img').mouseenter(function(){
+    //     console.log('mouseenter');
+    //     $(this).fadeTo('slow', 0.50);
+    // });
+    // $('.event-img').mouseleave(function(){
+    //     console.log('mouseleave');
+    //     $(this).fadeTo('slow', 1);
+    // });
+    // $('.event-img').mouseenter(function(){
+    //     $('.hover-info').fadeTo('slow', 1);
+    // });
+    // $('.event-img').mouseleave(function(){
+    //     $('.hover-info').fadeTo('slow', 0);
+    // });
+
+    //----- Hover (alternate to fade to)
+    $('.event-img').hover(function(){
+        console.log('hover');
         $(this).fadeTo('slow', 0.50);
-    });
-    $('.event-img').mouseleave(function(){
-        console.log('mouseleave');
+    },
+    function(){
+        console.log('hover');
         $(this).fadeTo('slow', 1);
-    });
-    $('.event-img').mouseenter(function(){
-        $('.hover-info').fadeTo('slow', 1);
-    });
-    $('.event-img').mouseleave(function(){
-        $('.hover-info').fadeTo('slow', 0);
     });
 });
